@@ -6,5 +6,6 @@ export default {
   max: 100,
   title: "Revenue",
   axis: "$",
-  graphWidth: "60%"
+  graphWidth: "60%",
+  'axis-divisions': '5'
 }
