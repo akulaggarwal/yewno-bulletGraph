@@ -4,8 +4,8 @@ export default {
   poor: 70,
   good: 85,
   max: 100,
-  title: "Revenue",
-  axis: "$",
+  title: "Profit",
+  axisLabel: "%",
   graphWidth: "70%",
   'divisions': '5'
 }

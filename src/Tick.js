@@ -17,11 +17,3 @@ export default class Tick extends Component {
     )
   }
 }
-
-
-{/* <Tick id={tickVal} x1={tickVal} y1={this.state.y1}
- x2={tickVal} y2={this.state.y2} x={`${tickVal - 10}`} y={this.state.yText} /> */}
-
-
- {/* <line x1="20" y1={this.state.y1} x2="20" y2={this.state.y2} strokeWidth="2" stroke="black" />
- <text x={`${20 - 10}`} y={this.state.yText} fontFamily="Verdana" fontSize="14"> 20 </text> */}
