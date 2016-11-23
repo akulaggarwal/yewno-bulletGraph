@@ -12,7 +12,6 @@ export default class App extends Component {
         </div>
         <br />
         <BulletGraph data={data1} />
-        {/* <BulletGraph data={data1} /> */}
       </div>
     );
   }
