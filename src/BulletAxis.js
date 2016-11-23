@@ -18,7 +18,6 @@ export default class BulletAxis extends Component {
       const division = this.state.max / this.state.divisions * i;
       divsArr.push(division);
     }
-    console.log(divsArr);
 
     const ticks = divsArr.map( (tickVal)=> {
       let anchor = "middle";
@@ -37,7 +36,6 @@ export default class BulletAxis extends Component {
   }
 
   render() {
-    console.log(this.state);
     return(
       <g>{this.state.ticks}</g>
     )

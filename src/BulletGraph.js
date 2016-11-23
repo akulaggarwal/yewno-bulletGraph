@@ -12,7 +12,6 @@ export default class BulletGraph extends Component {
     const poorPercent = `${100 * this.state.poor / this.state.max}%`;
     const goodPercent = `${100 * this.state.good / this.state.max}%`;
     const targetPlacePercentage = `${100 * this.state.target / this.state.max - .25}%`;
-    // console.log(this.state);
 
     return(
       <div>
