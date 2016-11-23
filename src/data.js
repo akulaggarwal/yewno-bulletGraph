@@ -7,5 +7,5 @@ export default {
   title: "Profit",
   axisLabel: "%",
   graphWidth: "70%",
-  'divisions': '5'
+  divisions: '5'
 }

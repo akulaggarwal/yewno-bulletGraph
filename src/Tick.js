@@ -1,8 +1,6 @@
 import React, {Component} from "react";
 
 export default class Tick extends Component {
-
-
   render() {
     return(
       <g>
