@@ -17,7 +17,7 @@ export default class BulletGraph extends Component {
     return(
       <div>
         <h5 id="title">BulletChart</h5>
-        <svg xmlns="http://www.w3.org/2000/svg" width={this.state.graphWidth} height="60">
+        <svg id="SVG" xmlns="http://www.w3.org/2000/svg" width={this.state.graphWidth} height="60">
           <g>
             <rect width="100%" height="24px" fill="#e6e6e6" />
             <rect width={goodPercent} height="24px" fill="#bfbfbf" />
