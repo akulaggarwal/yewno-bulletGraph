@@ -17,14 +17,14 @@ export default class BulletGraph extends Component {
     return(
       <div>
         <h5 id="title">BulletChart</h5>
-        <svg xmlns="http://www.w3.org/2000/svg" width={this.state.graphWidth} height="200">
+        <svg xmlns="http://www.w3.org/2000/svg" width={this.state.graphWidth} height="60">
           <g>
             <rect width="100%" height="24px" fill="#e6e6e6" />
             <rect width={goodPercent} height="24px" fill="#bfbfbf" />
             <rect width={poorPercent} height="24px" fill="#999999" />
             <rect fill="black" height="8px" width={actualPercent} y="8px" />
             <rect fill="black" height="16px" width="2px" y="4px" x={targetPlacePercentage} />
-            <BulletAxis max={this.state.max} divisions={this.state.divisions}/>
+            <BulletAxis max={this.state.max} divisions={this.state.divisions} />
           </g>
         </svg>
       </div>
