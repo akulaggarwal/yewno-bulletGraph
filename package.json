@@ -17,5 +17,5 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://akulaggarwal.github.io/myapp"
+  "homepage": "http://akulaggarwal.github.io/yewno-bulletGraph"
 }
