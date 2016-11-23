@@ -22,7 +22,7 @@ export default class BulletAxis extends Component {
     console.log(divsArr);
 
     const ticks = divsArr.map( (tickVal)=> {
-      return <Tick id={tickVal} x1={tickVal} y1={this.state.y1}
+      return <Tick id={tickVal} key={tickVal} x1={tickVal} y1={this.state.y1}
        x2={tickVal} y2={this.state.y2} x={`${tickVal - 10}`} y={this.state.yText} />
     });
 
